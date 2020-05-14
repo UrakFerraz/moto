@@ -1,0 +1,9 @@
+@media (min-width: 320px) and (max-width: 700px) {
+.header{-ms-grid-columns:1fr;grid-template-columns:1fr;grid-gap:30px;justify-items:center}
+.headerMenu{justify-items:center;-webkit-box-pack:space-evenly;-ms-flex-pack:space-evenly;justify-content:space-evenly}
+.heroTextWrapper *{color:var(--secondaryColor)}
+.heroTextWrapper{grid-column:1 / -1;-ms-grid-row:1;grid-row:1}
+.heroBg{height:280px;-ms-grid-row:2;grid-row:2}
+.heroSection::after{background-color:transparent}
+.claims{-ms-grid-columns:1fr;grid-template-columns:1fr}
+}
